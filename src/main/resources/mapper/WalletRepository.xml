@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.repository.WalletRepository">
+    <resultMap id="BaseResultMap" type="web.entity.Wallet">
+        <!--@JPA.Support generated on 2024-10-02 20:45:24.-->
+        <!--@Table wallet-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="user_id" jdbcType="INTEGER" property="userId"/>
+        <result column="sum" jdbcType="INTEGER" property="sum"/>
+        <result column="time_id" jdbcType="INTEGER" property="timeId"/>
+    </resultMap>
+    <!--    <sql id="Base_Column_List">-->
+    <!--        &lt;!&ndash;@JPA.Support generated on 2024-10-02 20:45:24.&ndash;&gt;-->
+    <!--        id, user_id, `sum`, time_id-->
+    <!--    </sql>-->
+</mapper>

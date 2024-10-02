@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.repository.BuyRepository">
+    <resultMap id="BaseResultMap" type="web.entity.Buy">
+        <!--@JPA.Support generated on 2024-10-02 20:45:17.-->
+        <!--@Table buy-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="price_id" jdbcType="INTEGER" property="priceId"/>
+        <result column="quantity" jdbcType="INTEGER" property="quantity"/>
+        <result column="time_id" jdbcType="INTEGER" property="timeId"/>
+        <result column="client_id" jdbcType="INTEGER" property="clientId"/>
+    </resultMap>
+    <!--    <sql id="Base_Column_List">-->
+    <!--        &lt;!&ndash;@JPA.Support generated on 2024-10-02 20:45:17.&ndash;&gt;-->
+    <!--        price_id, quantity, id, time_id, client_id-->
+    <!--    </sql>-->
+</mapper>

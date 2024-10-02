@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.repository.PetRepository">
+    <resultMap id="BaseResultMap" type="web.entity.Pet">
+        <!--@JPA.Support generated on 2024-10-02 20:45:20.-->
+        <!--@Table pet-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="name" jdbcType="VARCHAR" property="name"/>
+        <result column="user_id" jdbcType="INTEGER" property="userId"/>
+        <result column="time_id" jdbcType="INTEGER" property="timeId"/>
+        <result column="mome_id" jdbcType="INTEGER" property="momeId"/>
+        <result column="dad_id" jdbcType="INTEGER" property="dadId"/>
+    </resultMap>
+    <!--    <sql id="Base_Column_List">-->
+    <!--        &lt;!&ndash;@JPA.Support generated on 2024-10-02 20:45:20.&ndash;&gt;-->
+    <!--        id, `name`, user_id, time_id, mome_id, dad_id-->
+    <!--    </sql>-->
+</mapper>

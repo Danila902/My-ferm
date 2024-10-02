@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="web.repository.TimeRepository">
+    <resultMap id="BaseResultMap" type="web.entity.Time">
+        <!--@JPA.Support generated on 2024-10-02 20:45:22.-->
+        <!--@Table time-->
+        <id column="id" jdbcType="INTEGER" property="id"/>
+        <result column="time" jdbcType="TIMESTAMP" property="time"/>
+    </resultMap>
+    <!--    <sql id="Base_Column_List">-->
+    <!--        &lt;!&ndash;@JPA.Support generated on 2024-10-02 20:45:22.&ndash;&gt;-->
+    <!--        id, `time`-->
+    <!--    </sql>-->
+</mapper>
