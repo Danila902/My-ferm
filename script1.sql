@@ -92,7 +92,7 @@ create table client
 alter table client
     owner to postgres;
 
-create table measurment_unit
+create table measurement_unit
 (
     id        integer     not null
         constraint unit_id
@@ -100,7 +100,8 @@ create table measurment_unit
     unit_name varchar(50) not null
 );
 
-alter table measurment_unit
+
+alter table measurement_unit
     owner to postgres;
 
 create table price

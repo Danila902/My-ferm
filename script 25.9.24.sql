@@ -21,7 +21,6 @@ create table user_role
         constraint role_id
             primary key
 );
-
 alter table user_role
     owner to postgres;
 

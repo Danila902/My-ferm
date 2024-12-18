@@ -22,6 +22,7 @@
         <project.reporting.outputEncoding>${encoding.type}</project.reporting.outputEncoding>
         <encoding.type>UTF-8</encoding.type>
         <file.encoding>${encoding.type}</file.encoding>
+
     </properties>
 
     <dependencies>
@@ -64,12 +65,13 @@
             <artifactId>tomcat-jsp-api</artifactId>
         </dependency>
 
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-freemarker</artifactId>
+            <artifactId>spring-boot-starter-mustache</artifactId>
         </dependency>
 
-               <dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-jdbc</artifactId>
         </dependency>
@@ -187,6 +189,5 @@
                 </configuration>
             </plugin>
         </plugins>
-
     </build>
 </project>
